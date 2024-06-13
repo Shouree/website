@@ -1,0 +1,16 @@
+.github-button {
+    display: inline-block;
+    color: #1f2328;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    border: none;
+}
+.linkedin-button {
+    display: inline-block;
+    color: #0A66C2;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    border: none;
+}
