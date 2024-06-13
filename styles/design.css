@@ -7,6 +7,17 @@ h1, h2, p {
     color: white;
 }
 
+.project-title {
+    font-family: Montserrat;
+    color: white;
+    text-decoration: none;
+}
+.caption {
+    font-family: Montserrat;
+    color: rgb(206, 206, 206);
+    font-size: 12px;
+}
+
 .nav-bar {
     height: 60px;
     display: flex;
@@ -16,4 +27,38 @@ h1, h2, p {
 .nav-buttons {
    margin-left: auto;
    margin-right: 0;
+}
+
+.page-content {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.preview-container {
+    display: block;
+}
+
+.project-preview {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    width: 600px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.project-preview:hover {
+    background-color: rgb(40, 40, 40);
+    border-style: hidden;
+    border-radius: 14px;
+    opacity: 1.0;
+    display: inline-block;
+    position: relative;
+    visibility: visible;
 }

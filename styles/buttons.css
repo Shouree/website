@@ -15,19 +15,12 @@
     font-size: 30px;
 }
 
-.github-button {
+.github-button, .linkedin-button {
     display: inline-block;
     color: white;
     font-size: 32px;
     width: 32px;
     height: 32px;
-    border: none;
-}
-.linkedin-button {
-    display: inline-block;
-    color: white;
-    font-size: 32px;
-    width: 32px;
-    height: 32px;
+    margin: 6px;
     border: none;
 }
