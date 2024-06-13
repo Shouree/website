@@ -24,3 +24,36 @@
     margin: 6px;
     border: none;
 }
+
+.contact-button {
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(40, 40, 40);
+    border-width: 1px;
+    width: 396px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.contact-button:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.contact-button i {
+    color: rgb(206, 206, 206);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contact-button h2 {
+    color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contact-button:hover i, .contact-button:hover h2{
+    color: white;
+}

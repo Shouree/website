@@ -7,6 +7,10 @@ h1, h2, p {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 .project-title {
     font-family: Montserrat;
     color: white;
