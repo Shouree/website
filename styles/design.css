@@ -26,8 +26,8 @@ a {
     height: 60px;
     display: flex;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .nav-buttons {
@@ -36,8 +36,8 @@ a {
 }
 
 .page-content {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .preview-container {
