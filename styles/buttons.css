@@ -15,14 +15,26 @@
     font-size: 30px;
 }
 
-.github-button, .linkedin-button, .bi.bi-envelope, .bi.bi-geo-alt{
-    display: inline-block;
+.bi.bi-geo-alt, .bi.bi-envelope, .bi.bi-telephone{
     color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    margin: 5px;
+    font-style: normal;
+}
+
+.github-button, .linkedin-button {
+    display: inline-block;
+    color: rgb(150, 150, 150);
     font-size: 32px;
     width: 32px;
     height: 32px;
     margin: 6px;
     border: none;
+}
+
+.github-button:hover, .linkedin-button:hover, .bi.bi-envelope:hover {
+    color: white;
 }
 
 .contact-button {
