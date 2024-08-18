@@ -34,6 +34,29 @@ a {
     height: 50px;
 }
 
+/*=============== Experience / Education ===============*/
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-item {
+    margin-top: 20px;
+}
+
+.employer {
+    font-weight: bold;
+}
+
+.employment-date, .work-title {
+    color: rgb(150, 150, 150);
+}
+
+.work-description {
+    margin-top: 15px;
+}
+
 /*=============== Projects ===============*/
 
 .projects {
@@ -108,6 +131,6 @@ a {
     display: flex;
 }
 
-.item p {
+.tech-info p {
     margin: auto;
 }
