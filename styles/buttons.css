@@ -15,7 +15,7 @@
     font-size: 30px;
 }
 
-.github-button, .linkedin-button {
+.github-button, .linkedin-button, .bi.bi-envelope, .bi.bi-geo-alt{
     display: inline-block;
     color: white;
     font-size: 32px;

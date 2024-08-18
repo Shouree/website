@@ -19,13 +19,13 @@
                     Erik Bäck Lindström
                 </a>
                 <div class="nav-buttons">
-                    <a href="https://shouree.github.io/website/about.html" class="nav-button">
+                    <a href="#about" class="nav-button">
                         About
                     </a>
-                    <a href="https://shouree.github.io/website/projects.html" class="nav-button">
+                    <a href="#projects" class="nav-button">
                         Projects
                     </a>
-                    <a href="https://shouree.github.io/website/contact.html" class="nav-button">
+                    <a href="#contact" class="nav-button">
                         Contact
                     </a>
                 </div>
@@ -98,52 +98,84 @@
 
             <div class="space"></div>
 
-            <h2>About me</h2>
+            <h2 id="about">About me</h2>
 
             <div class="space"></div>
 
-            <h2>Projects</h2>
+            <h2 id="projects">Projects</h2>
             <div class="projects">
-                <a href="https://gitlab.liu.se/tddi82-vt23/Malte-1" class="project-info">
+                <div class="project-info">
                     <h1 style="font-weight: bold;"> Apan Jan </h1>
                     <p style="color: rgb(150, 150, 150)">
-                        A Collaborative Game Development Project made during my study at Linköping University
+                        A Collaborative Game Development Project made during my study at Linköping University.
+                        The game is inspired by the 1983 arcade game Donkey Kong.
                     </p>
-                        <div class="tech-showcase">
-                            <div class="tech-info"><p>C++</p></div>
-                            <div class="tech-info"><p>SFML</p></div>
-                        </div>
-                </a>
-                <!-- Make the following divs into a href later -->
-                <div class="project-info"> <p>Project 2</p> </div>
-                <div class="project-info"> <p>Project 3</p> </div>
-                <div class="project-info"> <p>Project 4</p> </div>
+
+                    <div class="tech-showcase">
+                        <div class="tech-info"><p>C++</p></div>
+                        <div class="tech-info"><p>SFML</p></div>
+                    </div>
+
+                    <a href="https://gitlab.liu.se/tddi82-vt23/Malte-1" target="_blank" class="github-button">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+
+                <div class="project-info">
+                    <h1 style="font-weight: bold;"> Space Race </h1>
+                    <p style="color: rgb(150, 150, 150)">
+                        A Collaborative Development Project made during my study at Linköping University.
+                        A game programmed in Assembly on the ATmega328P microcontroller as part of the course TSIU51 - Microcomputer Projects.
+                        The game is inspired by the 1973 arcade game Space Race.
+                    </p>
+
+                    <div class="tech-showcase">
+                        <div class="tech-info"><p>ASM</p></div>
+                    </div>
+
+                    <a href="https://gitlab.liu.se/da-proj/mikrodatorprojekt-ing/2023/grupp05/projekt" target="_blank" class="github-button">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
             </div>
+
+            <h2 id="contact">Contact</h2>
+            <div class="contact">
+                
+                <p>erikbacklindstrom@gmail.com</p>
+                <p>+46 70 216 01 62</p>
+                <i class="bi bi-geo-alt"></i>
+                <p>Linköping, Sweden</p>
+                <a href="mailto:erikbacklindstrom@gmail.com">
+                    <i class="bi bi-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/erik-b%C3%A4ck-lindstr%C3%B6m/" target="_blank" class="linkedin-button">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/Shouree" target="_blank" class="github-button">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+            
+
+            <div class="space"></div>
 
             <h2>TODO:</h2>
             <p>
                 - <s>Buttons for navigation</s><br>
-                - <s>Multiple html files for different parts of the website, e.g. an about page, project page, etc.</s><br>
                 - <s>Shortcuts to specific projects on the homepage</s><br>
-                - When hovering on the name of a shortcut, display an image of the project<br>
+                - When hovering on the name of a project, display an image of the project<br>
                 - Add some color when hovering over the github and linkedin buttons<br>
-                - <s>Learn the basics about the div element</s><br>
-                - <s>Finish about page</s><br>
-                - Finish projects page<br>
-                - Finish contact page<br>
+                - Finish intro<br>
+                - Finish about me<br>
+                - Finish projects<br>
+                - Finish contact<br>
             </p>
     
             <h2>BUGS:</h2>
             <p>
                 - Navigation bar/navigation buttons are not working properly on mobile<br>
             </p>
-
-            <a href="https://www.linkedin.com/in/erik-b%C3%A4ck-lindstr%C3%B6m/" target="_blank" class="linkedin-button">
-                <i class="bi bi-linkedin"></i>
-            </a>
-            <a href="https://github.com/Shouree" target="_blank" class="github-button">
-                <i class="bi bi-github"></i>
-            </a>
         </div>
     </body>
 </html>

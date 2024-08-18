@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .content {
     margin-left: 500px;
     margin-right: 500px;
@@ -31,7 +35,7 @@ a {
 }
 
 .space {
-    height: 50px;
+    height: 150px;
 }
 
 /*=============== Experience / Education ===============*/
@@ -75,24 +79,25 @@ a {
     width: 400px;
     height: 260px;
     border-radius: 5px;
-    border-style: solid;
+
     border-width: 1px;
     border-color: rgb(54, 54, 54);
     display: flex;
     flex-direction: column;
+    align-items: baseline;
     gap: 1rem;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 .project-info h1 {
     font-size: 20px;
 }
-
+/*
 .project-info:hover {
     background-color: rgb(40, 40, 40);
     transition: background-color 0.3s ease;
 }
-
+*/
 .tech-showcase {
     margin-top: 20px;
     padding: 5px;
@@ -115,22 +120,11 @@ a {
     display: flex;
 }
 
-.cpp {
-    width: 65px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: rgb(33, 32, 107);
-    display: flex;
-}
-
-.sfml {
-    width: 65px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: rgb(140, 196, 69);
-    display: flex;
-}
-
 .tech-info p {
     margin: auto;
+}
+
+/*=============== Contact ===============*/
+.contact {
+    margin-top: 20px;
 }
