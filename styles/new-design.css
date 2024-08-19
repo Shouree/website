@@ -4,8 +4,6 @@ body {
     background-color: rgb(26, 26, 26);
 }
 
-
-
 h1, h2, p {
     font-family: Montserrat;
     color: white;
@@ -167,11 +165,10 @@ html {
     padding-top: 60px;
   }
 
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 600px) {
 
     .section {
-        margin-left: 30px;
-        margin-right: 30px;
+        width: 300px;
     }
 
     
