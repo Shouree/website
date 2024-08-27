@@ -81,6 +81,16 @@ html {
     margin-top: 15px;
 }
 
+/*=============== About ===============*/
+
+.about-pic {
+    width: 50%; 
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
 /*=============== Projects ===============*/
 
 .projects {
