@@ -116,7 +116,7 @@ html {
     border-color: rgb(54, 54, 54);
     display: flex;
     flex-direction: column;
-    overflow: auto;
+    overflow: hidden;
     overflow-x: hidden;
     overflow-y: hidden;
     align-items: baseline;
