@@ -23,7 +23,7 @@
     font-style: normal;
 }
 
-.github-button, .linkedin-button {
+.github-button, .linkedin-button, .youtube-button {
     display: inline-block;
     color: rgb(150, 150, 150);
     font-size: 32px;
@@ -33,9 +33,11 @@
     border: none;
 }
 
-.github-button:hover, .linkedin-button:hover, .bi.bi-envelope:hover {
+.github-button:hover, .linkedin-button:hover, .bi.bi-envelope:hover, .youtube-button:hover {
     color: white;
 }
+
+
 
 .contact-button {
     display: inline-block;
