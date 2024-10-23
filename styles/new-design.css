@@ -109,7 +109,6 @@ html {
     width: 400px;
     height: 330px;
     border-radius: 5px;
-
     border-width: 1px;
     border-bottom-style: solid;
     border-bottom-left-radius: 0%;
@@ -117,6 +116,7 @@ html {
     border-color: rgb(54, 54, 54);
     display: flex;
     flex-direction: column;
+    overflow: auto;
     align-items: baseline;
     gap: 1rem;
     /*cursor: pointer;*/
