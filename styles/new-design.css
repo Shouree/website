@@ -2,6 +2,7 @@
 
 body {
     background-color: rgb(26, 26, 26);
+    line-height: 1;
 }
 
 h1, h2, p {
@@ -116,7 +117,7 @@ html {
     border-color: rgb(54, 54, 54);
     display: flex;
     flex-direction: column;
-    overflow-inline: auto;
+    overflow: auto;
     align-items: baseline;
     gap: 1rem;
     /*cursor: pointer;*/
