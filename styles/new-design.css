@@ -33,7 +33,7 @@ html {
 .section {
     text-align: justify;
     width: 600px;
-    
+    margin-bottom: 15%;
 }
 
 .navbar {
@@ -81,6 +81,9 @@ html {
     margin-top: 15px;
 }
 
+#education-section {
+    margin-top: 10%;
+}
 /*=============== About ===============*/
 
 .about-pic {
